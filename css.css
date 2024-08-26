@@ -6,17 +6,15 @@ html {
 header {
   position: relative;
   top: 0;
-  margin-top: 1em;
+  margin-top: 10em;
   text-align: center;
-  font-size: 1.5rem;
-  font-weight: bold;
-  padding-left: 2%;
 }
 
 body {
-  margin: 0;
-  color: black;
+  font-family: Arial;
+  color: #100873;
   background-image: url(https://wallpaper.forfun.com/fetch/ad/ad9de72cd81eeafc933dc66180f00229.jpeg);
+  margin: 0;
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
@@ -30,23 +28,70 @@ body {
   position: relative;
   margin: 2% auto;
   float: center;
-  width: 900px;
-  height: 600px;
+  width: 1200px;
+  height: 1050px;
   text-align: center;
   background: rgb(255, 255, 255, 0.8);
   border-radius: 2rem;
 }
 
+.paimon {
+  position: absolute;
+  height: 350px;
+  top: 170px;
+  left: -80px;
+}
+
 table {
-  font-size: 1.05em;
+  font-size: 1em;
   margin: 0 auto;
-  padding-top: 2em;
-  width: 800px;
+  padding-top: 1em;
+  width: 1050px;
   table-layout: fixed;
 }
 
-h3 {
+h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 3em;
+  padding-top: 1.5em;
+  margin-bottom: -0.01em;
+}
+
+table h3 {
   margin-bottom: -0.5em;
+  font-weight: 800;
+  font-size: 1.3em;
+  overflow: hidden;
+}
+
+table p {
+  padding-bottom: 0.5em;
+  height: 1em;
+}
+
+.teapot {
+  height: 300px;
+  width: 1050px;
+  margin: 1em auto;
+  border-radius: 2rem;
+  background: rgb(16, 8, 115, 0.4);
+}
+
+.teapotcard {
+  position: relative;
+  height: 150px;
+  background: rgb(16, 8, 115, 0.3);
+  top: 100px;
+}
+
+.teapotimg { 
+  position: relative;
+  height: 400px;
+  float: right;
+  left: 140px;
+  top: -145px;
 }
 
 footer {
@@ -54,7 +99,7 @@ footer {
   color: #fff;
   text-align: left;
   position: fixed;
-  font-size: 1.7em;
+  font-size: 1.5em;
   left: 0;
   right: 0;
   bottom: 0;
