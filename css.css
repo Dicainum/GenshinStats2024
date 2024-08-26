@@ -29,7 +29,7 @@ body {
   margin: 2% auto;
   float: center;
   width: 1200px;
-  height: 1050px;
+  height: 1600px;
   text-align: center;
   background: rgb(255, 255, 255, 0.8);
   border-radius: 2rem;
@@ -42,10 +42,9 @@ body {
   left: -80px;
 }
 
-table {
+.table {
   font-size: 1em;
   margin: 0 auto;
-  padding-top: 1em;
   width: 1050px;
   table-layout: fixed;
 }
@@ -54,6 +53,11 @@ h1 {
   font-size: 1.8em;
   font-weight: bold;
   text-align: left;
+  padding-left: 3em;
+  padding-top: 1.5em;
+}
+
+table h1 {
   padding-left: 3em;
   padding-top: 1.5em;
   margin-bottom: -0.01em;
@@ -92,6 +96,55 @@ table p {
   float: right;
   left: 140px;
   top: -145px;
+}
+
+.teapottable {
+  position: absolute;
+  top: 660px;
+  left: 80px;
+  table-layout: fixed;
+  color: white;
+  border-spacing: 3em;
+}
+
+.tools h1 {
+  position: relative;
+  top: 140px;
+  right: 75px;
+}
+
+.column-container {
+  position: absolute;
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative; 
+  top: 150px;
+  left: 45px;
+  border: 1px solid rgb(16, 8, 115, 0.2);
+  border-radius: 10px;
+  width: 14.8%;
+  margin: 0 auto;
+  padding: 1em 1.5em;
+  transition: 0.7s;
+}
+
+.card:hover {
+  position: relative;
+  top: 147px;
+  left: 40px;
+  color: #fff;
+  background: rgb(16, 8, 115, 0.8);
+  cursor: pointer;
+}
+
+.card p {
+  margin-top: 0.5em;
+  font-size: 1.2em;
+  font-weight: 700;
 }
 
 footer {
