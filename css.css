@@ -24,6 +24,17 @@ body {
   background-size: cover;
 }
 
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
 .container {
   position: relative;
   margin: 2% auto;
@@ -37,7 +48,7 @@ body {
 
 .paimon {
   position: absolute;
-  height: 400px;
+  height: 410px;
   top: 170px;
   left: -120px;
 }
@@ -92,10 +103,10 @@ table p {
 
 .teapotimg { 
   position: relative;
-  height: 380px;
+  height: 400px;
   float: right;
   left: 140px;
-  top: -145px;
+  top: -160px;
 }
 
 .teapottable {
@@ -135,7 +146,7 @@ table p {
 .card:hover {
   position: relative;
   top: 147px;
-  left: 40px;
+  left: 38px;
   color: #fff;
   background: rgb(16, 8, 115, 0.8);
   cursor: pointer;
